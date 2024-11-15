@@ -4,39 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Sitio Web</title>
+    <title>Mi Página Web</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#acerca">Acerca de</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="inicio">
-            <h1>Bienvenido a Mi Sitio Web</h1>
-        </section>
-        <section id="acerca">
-            <h2>Acerca de</h2>
-            <p>Esta es la sección de información sobre nosotros.</p>
-        </section>
-        <section id="servicios">
-            <h2>Servicios</h2>
-            <p>Estos son los servicios que ofrecemos.</p>
-        </section>
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <p>Información de contacto aquí.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Mi Sitio Web. Todos los derechos reservados.</p>
-    </footer>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#acerca-de">Acerca de</a></li>
+            <li>
+                <a href="#servicios">Servicios</a>
+                <ul class="submenu">
+                    <li><a href="#servicio1">Servicio 1</a></li>
+                    <li><a href="#servicio2">Servicio 2</a></li>
+                    <li><a href="#servicio3">Servicio 3</a></li>
+                </ul>
+            </li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Secciones -->
+    <section id="inicio">
+        <h1>Bienvenido a nuestra página</h1>
+        <!-- contenido -->
+    </section>
+    <section id="acerca-de">
+        <h1>Acerca de</h1>
+        <!-- contenido -->
+    </section>
+    <section id="servicios">
+        <h1>Servicios</h1>
+        <!-- contenido -->
+    </section>
+    <section id="contacto">
+        <h1>Contacto</h1>
+        <!-- contenido -->
+    </section>
 </body>
 </html>
