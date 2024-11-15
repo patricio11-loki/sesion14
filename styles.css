@@ -68,3 +68,23 @@ body{
 .submenu a:hover {
     background-color: #666;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #333;
+    }
+    nav ul li a {
+    padding: 1em;
+    text-align: center;
+    }
+    #nav-toggle {
+    display: block;
+    }
+    .nav-open ul {
+    display: flex;
+    }
+    }
